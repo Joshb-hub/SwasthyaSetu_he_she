@@ -13,7 +13,7 @@ SwasthyaSetu is an awareness-based educational web platform designed to provide 
 
 ### 🏠 Home Page
 ![Home Page](home.png)
-(home1.png)
+![](home1.png)
 
 ### 👩 Women’s Health Section
 ![Women Page](women.png)
