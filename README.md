@@ -1,7 +1,7 @@
 # 🩺 SwasthyaSetu – Reproductive & Sexual Health Awareness Platform
 
 🔗 **Live Website:**  
-https://swasthyasetu.vercel.app
+http://localhost:8000/
 
 SwasthyaSetu is an awareness-based educational web platform designed to provide **stigma-free, culturally sensitive, and medically accurate** information on reproductive and sexual health for both **men and women**. The platform bridges the information gap by offering structured learning, visual clarity, and trusted resources in a user-friendly format.
 
