@@ -12,10 +12,11 @@ SwasthyaSetu is an awareness-based educational web platform designed to provide 
 > Place your screenshots inside `assets/screenshots/` and keep the names as shown below.
 
 ### 🏠 Home Page
-![Home Page](assets/screenshots/home.png)
+![Home Page](home.png)
+(home1.png)
 
 ### 👩 Women’s Health Section
-![Women Page](assets/screenshots/women.png)
+![Women Page](women.png)
 
 ### 👨 Men’s Health Section
 ![Men Page](assets/screenshots/men.png)
