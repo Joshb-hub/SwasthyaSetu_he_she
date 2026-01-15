@@ -3,278 +3,451 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Men's Health - Reproductive Health Awareness</title>
+    <title>Men's Health - SwasthyaSetu</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap');
-        
-        * {
-            font-family: 'Inter', sans-serif;
-        }
-        
-        h1, h2, h3, h4, h5, h6 {
-            font-family: 'Poppins', sans-serif;
-        }
-
-        .gradient-blue { background: linear-gradient(135deg, #2C5AA0 0%, #1A3A5C 100%); }
-        .card-masculine { border-left: 4px solid #2C5AA0; }
-        .accent-blue { color: #2C5AA0; }
-    </style>
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
-<body class="bg-gradient-to-b from-blue-50 to-white">
-    <!-- Header -->
-    <header class="gradient-blue text-white shadow-lg">
-        <div class="max-w-6xl mx-auto px-4 py-8 flex items-center justify-between">
-            <div>
-                <a href="index.html" class="text-white hover:opacity-80 transition mb-2 inline-block">← Back Home</a>
-                <h1 class="text-4xl md:text-5xl font-bold">Men's Health</h1>
+<body class="bg-blue-50">
+    <!-- Navigation -->
+    <nav class="sticky top-0 z-50 bg-white border-b-2 border-blue-200 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="text-2xl font-bold text-blue-700">
+                    SwasthyaSetu
+                </div>
+                <div class="flex gap-6">
+                    <a href="index.html" class="text-gray-700 hover:text-blue-600 font-medium">Home</a>
+                    <a href="womens-health.html" class="text-gray-700 hover:text-pink-600 font-medium">For Women</a>
+                    <a href="mens-health.html" class="text-blue-700 font-bold border-b-2 border-blue-700">For Men</a>
+                </div>
             </div>
-            <div class="text-5xl">🛡️</div>
         </div>
-    </header>
+    </nav>
 
-    <main class="max-w-6xl mx-auto px-4 py-12">
-        <!-- Understanding Male Reproductive System -->
-        <section class="mb-16">
-            <h2 class="text-3xl font-bold text-slate-900 mb-6 accent-blue">Understanding the Male Reproductive System</h2>
-            <div class="bg-white rounded-2xl p-8 card-masculine shadow-md">
-                <div class="grid md:grid-cols-2 gap-8">
+    <!-- Hero Section -->
+    <section class="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
+        <!-- Gradient Background -->
+        <div class="absolute inset-0 bg-gradient-to-br from-blue-100 via-blue-50 to-slate-100"></div>
+        
+        <!-- Content -->
+        <div class="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="mb-8 flex justify-center">
+                <span class="inline-block px-4 py-1 bg-blue-200 text-blue-800 rounded-full text-sm font-semibold">Men's Health</span>
+            </div>
+            <h1 class="text-5xl sm:text-6xl font-bold text-blue-900 mb-6 leading-tight">
+                Take Control of Your Health
+            </h1>
+            <p class="text-xl text-blue-800 mb-12 max-w-2xl mx-auto leading-relaxed">
+                A comprehensive guide to male reproductive health and wellness. Knowledge is power—understand your body and make informed decisions about your health.
+            </p>
+        </div>
+
+        <!-- Decorative Elements -->
+        <div class="absolute top-20 right-10 w-72 h-72 bg-blue-300 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-pulse"></div>
+        <div class="absolute bottom-20 left-10 w-72 h-72 bg-slate-300 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-pulse"></div>
+    </section>
+
+    <!-- Content Sections -->
+    <section class="py-16 bg-white relative z-10">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Anatomy Section -->
+            <div class="mb-8 pb-8 border-b-2 border-blue-200">
+                <h2 class="text-4xl font-bold text-blue-900 mb-8 flex items-center gap-3">
+                    <span class="w-10 h-10 bg-blue-200 rounded-full flex items-center justify-center text-blue-700 font-bold">1</span>
+                    Male Anatomy
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                     <div>
-                        <h3 class="text-xl font-bold mb-4 accent-blue">Key Organs</h3>
-                        <ul class="space-y-4">
-                            <li class="flex items-start">
-                                <span class="accent-blue font-bold mr-3">•</span>
-                                <div>
-                                    <p class="font-semibold">Penis</p>
-                                    <p class="text-slate-600">External reproductive organ for urination and sexual function.</p>
+                        <p class="text-lg text-gray-700 mb-6 leading-relaxed">
+                            Understanding your reproductive system is crucial for maintaining optimal health. Your body performs complex functions designed for both reproduction and overall wellness.
+                        </p>
+                        <div class="space-y-4">
+                            <div class="flex items-start gap-4">
+                                <div class="w-6 h-6 bg-blue-300 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                                    <span class="text-blue-700 text-sm font-bold">•</span>
                                 </div>
+                                <div>
+                                    <h4 class="font-bold text-blue-900 mb-1">Testes</h4>
+                                    <p class="text-gray-600 text-sm">Produce sperm and testosterone, the primary male hormone. They're housed in the scrotum to maintain the proper temperature for sperm production.</p>
+                                    <a href="#development" class="text-blue-600 hover:text-blue-700 text-sm font-semibold mt-2 inline-block">Learn about development →</a>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-4">
+                                <div class="w-6 h-6 bg-blue-300 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                                    <span class="text-blue-700 text-sm font-bold">•</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-blue-900 mb-1">Prostate</h4>
+                                    <p class="text-gray-600 text-sm">Produces seminal fluid that nourishes and transports sperm. Regular prostate health checks are important as you age.</p>
+                                    <a href="#health-conditions" class="text-blue-600 hover:text-blue-700 text-sm font-semibold mt-2 inline-block">Learn about prostate health →</a>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-4">
+                                <div class="w-6 h-6 bg-blue-300 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                                    <span class="text-blue-700 text-sm font-bold">•</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-blue-900 mb-1">Penis</h4>
+                                    <p class="text-gray-600 text-sm">The external organ for urination and sexual function. The glans (head) and shaft are sensitive and require proper hygiene and care.</p>
+                                    <a href="#wellness" class="text-blue-600 hover:text-blue-700 text-sm font-semibold mt-2 inline-block">Hygiene tips →</a>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-4">
+                                <div class="w-6 h-6 bg-blue-300 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                                    <span class="text-blue-700 text-sm font-bold">•</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-blue-900 mb-1">Seminal Vesicles</h4>
+                                    <p class="text-gray-600 text-sm">Produce about 60% of the seminal fluid. They play a crucial role in male fertility and sexual function.</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-4">
+                                <div class="w-6 h-6 bg-blue-300 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                                    <span class="text-blue-700 text-sm font-bold">•</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-blue-900 mb-1">Epididymis & Vas Deferens</h4>
+                                    <p class="text-gray-600 text-sm">These tubes store and transport sperm from the testes to the urethra for ejaculation during sexual activity.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-gradient-to-br from-blue-100 to-slate-100 p-8 rounded-2xl">
+                        <div class="w-full h-64 bg-blue-200 rounded-xl flex items-center justify-center">
+                            <span class="text-blue-600 text-lg font-semibold">[Anatomical Diagram]</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Puberty & Development Section -->
+            <div id="development" class="mb-8 pb-8 border-b-2 border-blue-200">
+                <h2 class="text-4xl font-bold text-blue-900 mb-8 flex items-center gap-3">
+                    <span class="w-10 h-10 bg-blue-200 rounded-full flex items-center justify-center text-blue-700 font-bold">2</span>
+                    Puberty & Development
+                </h2>
+                <p class="text-lg text-gray-700 mb-8 leading-relaxed">
+                    Male puberty typically begins between ages 9-14 and involves significant physical and hormonal changes:
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+                    <div class="bg-blue-50 border-2 border-blue-300 p-6 rounded-xl">
+                        <h4 class="font-bold text-blue-900 mb-3 text-center">Growth Spurt</h4>
+                        <p class="text-gray-700 text-sm text-center">Rapid increase in height and muscle mass</p>
+                    </div>
+                    <div class="bg-blue-50 border-2 border-blue-300 p-6 rounded-xl">
+                        <h4 class="font-bold text-blue-900 mb-3 text-center">Voice Changes</h4>
+                        <p class="text-gray-700 text-sm text-center">Voice deepens due to larynx growth</p>
+                    </div>
+                    <div class="bg-blue-100 border-2 border-blue-400 p-6 rounded-xl">
+                        <h4 class="font-bold text-blue-900 mb-3 text-center">Hair Growth</h4>
+                        <p class="text-gray-700 text-sm text-center">Development of facial and body hair</p>
+                    </div>
+                    <div class="bg-blue-50 border-2 border-blue-300 p-6 rounded-xl">
+                        <h4 class="font-bold text-blue-900 mb-3 text-center">Sexuality</h4>
+                        <p class="text-gray-700 text-sm text-center">Sexual feelings and functions develop</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Health Conditions Section -->
+            <div id="health-conditions" class="mb-8 pb-8 border-b-2 border-blue-200">
+                <h2 class="text-4xl font-bold text-blue-900 mb-8 flex items-center gap-3">
+                    <span class="w-10 h-10 bg-blue-200 rounded-full flex items-center justify-center text-blue-700 font-bold">3</span>
+                    Common Health Conditions
+                </h2>
+                <div class="space-y-6">
+                    <div class="bg-blue-50 p-6 rounded-xl border-l-4 border-blue-400">
+                        <h4 class="font-bold text-blue-900 mb-2 text-lg">Erectile Dysfunction</h4>
+                        <p class="text-gray-700">A common condition affecting sexual function, often related to age, health conditions, or stress. Multiple treatment options available.</p>
+                    </div>
+                    <div class="bg-blue-50 p-6 rounded-xl border-l-4 border-blue-400">
+                        <h4 class="font-bold text-blue-900 mb-2 text-lg">Prostate Issues</h4>
+                        <p class="text-gray-700">Benign prostatic hyperplasia (BPH) affects many older men, causing urinary symptoms. Regular check-ups are important.</p>
+                    </div>
+                    <div class="bg-blue-50 p-6 rounded-xl border-l-4 border-blue-400">
+                        <h4 class="font-bold text-blue-900 mb-2 text-lg">Sexually Transmitted Infections (STIs)</h4>
+                        <p class="text-gray-700">Common infections that can be prevented through safe practices and screened regularly. Early detection is key.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Wellness Tips Section -->
+            <div id="wellness" class="mb-16">
+                <h2 class="text-4xl font-bold text-blue-900 mb-8 flex items-center gap-3">
+                    <span class="w-10 h-10 bg-blue-200 rounded-full flex items-center justify-center text-blue-700 font-bold">4</span>
+                    Wellness Tips
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="bg-gradient-to-br from-blue-100 to-slate-100 p-8 rounded-xl">
+                        <h4 class="font-bold text-blue-900 mb-4 text-lg">Fitness & Nutrition</h4>
+                        <ul class="space-y-3 text-gray-700">
+                            <li class="flex items-start gap-3">
+                                <span class="text-blue-600 font-bold mt-1">✓</span>
+                                <span>Maintain regular exercise for cardiovascular health</span>
                             </li>
-                            <li class="flex items-start">
-                                <span class="accent-blue font-bold mr-3">•</span>
-                                <div>
-                                    <p class="font-semibold">Testes (Testicles)</p>
-                                    <p class="text-slate-600">Produce sperm and male hormone testosterone.</p>
-                                </div>
+                            <li class="flex items-start gap-3">
+                                <span class="text-blue-600 font-bold mt-1">✓</span>
+                                <span>Eat protein-rich foods for muscle maintenance</span>
                             </li>
-                            <li class="flex items-start">
-                                <span class="accent-blue font-bold mr-3">•</span>
-                                <div>
-                                    <p class="font-semibold">Prostate</p>
-                                    <p class="text-slate-600">Produces fluid that protects and nourishes sperm.</p>
-                                </div>
-                            </li>
-                            <li class="flex items-start">
-                                <span class="accent-blue font-bold mr-3">•</span>
-                                <div>
-                                    <p class="font-semibold">Scrotum</p>
-                                    <p class="text-slate-600">Protective sac holding the testes.</p>
-                                </div>
+                            <li class="flex items-start gap-3">
+                                <span class="text-blue-600 font-bold mt-1">✓</span>
+                                <span>Stay hydrated and limit alcohol consumption</span>
                             </li>
                         </ul>
                     </div>
-                    <div class="bg-blue-100 rounded-xl p-6">
-                        <p class="text-slate-700"><span class="font-bold">Why They Matter:</span> These organs control reproduction, hormone production, and sexual health. Understanding them helps you maintain health and catch problems early.</p>
+                    <div class="bg-gradient-to-br from-blue-100 to-slate-100 p-8 rounded-xl">
+                        <h4 class="font-bold text-blue-900 mb-4 text-lg">Mental & Sexual Health</h4>
+                        <ul class="space-y-3 text-gray-700">
+                            <li class="flex items-start gap-3">
+                                <span class="text-blue-600 font-bold mt-1">✓</span>
+                                <span>Manage stress through exercise or meditation</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="text-blue-600 font-bold mt-1">✓</span>
+                                <span>Practice safe sex and regular health screenings</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="text-blue-600 font-bold mt-1">✓</span>
+                                <span>Get adequate sleep for hormonal balance</span>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </section>
-
-        <!-- Sexual & Reproductive Health -->
-        <section class="mb-16">
-            <h2 class="text-3xl font-bold text-slate-900 mb-6 accent-blue">Sexual & Reproductive Health</h2>
-            <div class="space-y-4">
-                <div class="bg-white rounded-xl p-6 card-masculine shadow-md">
-                    <h3 class="text-xl font-bold accent-blue mb-3">Importance of Hygiene</h3>
-                    <ul class="space-y-2 text-slate-700">
-                        <li>✓ Wash genitals daily with warm water</li>
-                        <li>✓ Retract foreskin (if uncircumcised) and clean gently</li>
-                        <li>✓ Keep area dry to prevent fungal infections</li>
-                        <li>✓ Wash hands before and after sexual contact</li>
-                        <li>✓ Use clean towels</li>
-                    </ul>
-                </div>
-                <div class="bg-white rounded-xl p-6 card-masculine shadow-md">
-                    <h3 class="text-xl font-bold accent-blue mb-3">Normal Body Changes</h3>
-                    <ul class="space-y-3">
-                        <li><span class="font-semibold text-slate-900">Puberty (12-18 years):</span> Voice deepens, body hair grows, genitals enlarge. This is normal development.</li>
-                        <li><span class="font-semibold text-slate-900">Erection:</span> Normal response to sexual stimulation or thoughts. Frequency varies by age.</li>
-                        <li><span class="font-semibold text-slate-900">Testicular Size:</span> One testicle is often slightly larger. This is normal.</li>
-                        <li><span class="font-semibold text-slate-900">Penis Variation:</span> Size and appearance vary naturally. Understand and accept your body.</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <!-- Common Diseases & Problems -->
-        <section class="mb-16">
-            <h2 class="text-3xl font-bold text-slate-900 mb-6 accent-blue">Common Diseases & Problems</h2>
-            <div class="grid md:grid-cols-2 gap-6">
-                <!-- UTI Card -->
-                <div class="bg-white rounded-xl p-6 card-masculine shadow-md">
-                    <h3 class="text-lg font-bold accent-blue mb-3">UTI (Urinary Tract Infection)</h3>
-                    <div class="space-y-2 text-sm text-slate-700">
-                        <p><span class="font-semibold">What:</span> Infection in the urinary system</p>
-                        <p><span class="font-semibold">Causes:</span> Bacteria, poor hygiene, unprotected intercourse</p>
-                        <p><span class="font-semibold">Symptoms:</span> Burning urination, frequent urination, cloudy urine</p>
-                        <p><span class="font-semibold">When to See Doctor:</span> Symptoms lasting >2 days</p>
-                        <p><span class="font-semibold">Prevention:</span> Stay hydrated, urinate after intercourse, practice hygiene</p>
-                    </div>
-                </div>
-
-                <!-- Erectile Dysfunction Card -->
-                <div class="bg-white rounded-xl p-6 card-masculine shadow-md">
-                    <h3 class="text-lg font-bold accent-blue mb-3">Erectile Dysfunction</h3>
-                    <div class="space-y-2 text-sm text-slate-700">
-                        <p><span class="font-semibold">What:</span> Difficulty achieving or maintaining erection</p>
-                        <p><span class="font-semibold">Causes:</span> Stress, anxiety, health conditions, medications</p>
-                        <p><span class="font-semibold">Symptoms:</span> Persistent difficulty with erections</p>
-                        <p><span class="font-semibold">When to See Doctor:</span> If affecting your quality of life</p>
-                        <p><span class="font-semibold">Prevention:</span> Manage stress, exercise, healthy diet, sleep well</p>
-                    </div>
-                </div>
-
-                <!-- Prostate Problems Card -->
-                <div class="bg-white rounded-xl p-6 card-masculine shadow-md">
-                    <h3 class="text-lg font-bold accent-blue mb-3">Prostate Problems</h3>
-                    <div class="space-y-2 text-sm text-slate-700">
-                        <p><span class="font-semibold">What:</span> Enlargement or infection of the prostate</p>
-                        <p><span class="font-semibold">Causes:</span> Age, hormonal changes, infection</p>
-                        <p><span class="font-semibold">Symptoms:</span> Difficulty urinating, weak stream, frequent urination</p>
-                        <p><span class="font-semibold">When to See Doctor:</span> Any urinary symptoms</p>
-                        <p><span class="font-semibold">Prevention:</span> Regular check-ups after 40, healthy lifestyle</p>
-                    </div>
-                </div>
-
-                <!-- STIs Card -->
-                <div class="bg-white rounded-xl p-6 card-masculine shadow-md">
-                    <h3 class="text-lg font-bold accent-blue mb-3">STIs (Sexually Transmitted Infections)</h3>
-                    <div class="space-y-2 text-sm text-slate-700">
-                        <p><span class="font-semibold">What:</span> Infections passed through sexual contact</p>
-                        <p><span class="font-semibold">Causes:</span> Bacterial, viral, or parasitic agents</p>
-                        <p><span class="font-semibold">Symptoms:</span> Discharge, pain, sores, itching</p>
-                        <p><span class="font-semibold">When to See Doctor:</span> Any unusual symptoms</p>
-                        <p><span class="font-semibold">Prevention:</span> Safe sex, regular testing, vaccinations</p>
-                    </div>
-                </div>
-
-                <!-- Testicular Infections Card -->
-                <div class="bg-white rounded-xl p-6 card-masculine shadow-md">
-                    <h3 class="text-lg font-bold accent-blue mb-3">Testicular Infections</h3>
-                    <div class="space-y-2 text-sm text-slate-700">
-                        <p><span class="font-semibold">What:</span> Inflammation of the testicles or epididymis</p>
-                        <p><span class="font-semibold">Causes:</span> Bacterial or viral infections, injury</p>
-                        <p><span class="font-semibold">Symptoms:</span> Swelling, pain, warmth, fever</p>
-                        <p><span class="font-semibold">When to See Doctor:</span> Immediately with pain or swelling</p>
-                        <p><span class="font-semibold">Prevention:</span> Practice safe sex, protect genitals during sports</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Life Stages -->
-        <section class="mb-16">
-            <h2 class="text-3xl font-bold text-slate-900 mb-6 accent-blue">Life Stages Guidance</h2>
-            <div class="space-y-4">
-                <div class="bg-gradient-to-r from-blue-100 to-blue-50 rounded-xl p-6 card-masculine">
-                    <h3 class="text-lg font-bold accent-blue mb-2">🧑 Adolescence (10-19 years)</h3>
-                    <p class="text-slate-700">Your body is changing rapidly. Hormones increase, genitals develop, and you may experience nocturnal emissions. This is completely normal. Understand your body and practice hygiene.</p>
-                </div>
-                <div class="bg-gradient-to-r from-blue-100 to-blue-50 rounded-xl p-6 card-masculine">
-                    <h3 class="text-lg font-bold accent-blue mb-2">💼 Adulthood (20-40 years)</h3>
-                    <p class="text-slate-700">Your peak fertility and sexual function years. Regular health check-ups, safe practices, and maintaining fitness are important for long-term health and sexual wellness.</p>
-                </div>
-                <div class="bg-gradient-to-r from-blue-100 to-blue-50 rounded-xl p-6 card-masculine">
-                    <h3 class="text-lg font-bold accent-blue mb-2">👨‍👧 Fatherhood & Partnership</h3>
-                    <p class="text-slate-700">Whether planning parenthood or in relationships, understanding fertility, sexual health, and responsible practices are essential. Support your partner's reproductive health as well.</p>
-                </div>
-                <div class="bg-gradient-to-r from-blue-100 to-blue-50 rounded-xl p-6 card-masculine">
-                    <h3 class="text-lg font-bold accent-blue mb-2">🧓 Aging (50+ years)</h3>
-                    <p class="text-slate-700">Hormone levels change, prostate issues may arise, and sexual function may shift. Regular check-ups, healthy lifestyle, and open communication are vital during this phase.</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Myths vs Facts -->
-        <section class="mb-16">
-            <h2 class="text-3xl font-bold text-slate-900 mb-6 accent-blue">Myths vs Facts</h2>
-            <div class="space-y-4">
-                <div class="bg-red-50 border-l-4 border-red-400 p-6 rounded-lg">
-                    <p class="font-semibold accent-blue">❌ Myth:</p>
-                    <p class="text-slate-700">Men don't get UTIs or reproductive infections.</p>
-                    <p class="font-semibold accent-blue mt-2">✅ Fact:</p>
-                    <p class="text-slate-700">Men can get UTIs and STIs. They may have fewer symptoms but need the same treatment. Practice safe sex and maintain hygiene.</p>
-                </div>
-                <div class="bg-red-50 border-l-4 border-red-400 p-6 rounded-lg">
-                    <p class="font-semibold accent-blue">❌ Myth:</p>
-                    <p class="text-slate-700">Talking about sexual problems with a doctor is shameful.</p>
-                    <p class="font-semibold accent-blue mt-2">✅ Fact:</p>
-                    <p class="text-slate-700">Doctors are trained professionals. Open communication helps diagnosis and treatment. Your health matters more than embarrassment.</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Products Section -->
-        <section class="mb-16">
-            <h2 class="text-3xl font-bold text-slate-900 mb-6 accent-blue">Doctor-Verified Products</h2>
-            <div class="grid md:grid-cols-2 gap-6">
-                <div class="bg-white rounded-xl p-6 card-masculine shadow-md border-2 border-blue-100">
-                    <div class="flex items-start justify-between mb-3">
-                        <h3 class="text-lg font-bold accent-blue">Condoms</h3>
-                        <span class="bg-blue-200 text-blue-800 text-xs font-bold px-3 py-1 rounded-full">Doctor Verified</span>
-                    </div>
-                    <p class="text-slate-700 mb-3"><span class="font-semibold">Purpose:</span> Prevent STIs and unplanned pregnancy</p>
-                    <p class="text-slate-700 mb-3"><span class="font-semibold">Who:</span> All sexually active men</p>
-                    <p class="text-slate-700 mb-4"><span class="font-semibold">Safety:</span> Use correct size, check expiry, use from start to finish</p>
-                    <button class="w-full gradient-blue text-white font-semibold py-2 rounded-lg hover:opacity-90 transition">Buy Safely</button>
-                </div>
-
-                <div class="bg-white rounded-xl p-6 card-masculine shadow-md border-2 border-blue-100">
-                    <div class="flex items-start justify-between mb-3">
-                        <h3 class="text-lg font-bold accent-blue">Intimate Hygiene Wash</h3>
-                        <span class="bg-blue-200 text-blue-800 text-xs font-bold px-3 py-1 rounded-full">Doctor Verified</span>
-                    </div>
-                    <p class="text-slate-700 mb-3"><span class="font-semibold">Purpose:</span> Gentle genital cleansing</p>
-                    <p class="text-slate-700 mb-3"><span class="font-semibold">Who:</span> All men for daily hygiene</p>
-                    <p class="text-slate-700 mb-4"><span class="font-semibold">Safety:</span> Use pH-balanced products, avoid harsh soaps</p>
-                    <button class="w-full gradient-blue text-white font-semibold py-2 rounded-lg hover:opacity-90 transition">Buy Safely</button>
-                </div>
-
-                <div class="bg-white rounded-xl p-6 card-masculine shadow-md border-2 border-blue-100">
-                    <div class="flex items-start justify-between mb-3">
-                        <h3 class="text-lg font-bold accent-blue">Fertility Testing Kits</h3>
-                        <span class="bg-blue-200 text-blue-800 text-xs font-bold px-3 py-1 rounded-full">Doctor Verified</span>
-                    </div>
-                    <p class="text-slate-700 mb-3"><span class="font-semibold">Purpose:</span> Check sperm health and fertility</p>
-                    <p class="text-slate-700 mb-3"><span class="font-semibold">Who:</span> Men planning parenthood or with concerns</p>
-                    <p class="text-slate-700 mb-4"><span class="font-semibold">Safety:</span> Use as directed, follow up with doctor</p>
-                    <button class="w-full gradient-blue text-white font-semibold py-2 rounded-lg hover:opacity-90 transition">Buy Safely</button>
-                </div>
-
-                <div class="bg-white rounded-xl p-6 card-masculine shadow-md border-2 border-blue-100">
-                    <div class="flex items-start justify-between mb-3">
-                        <h3 class="text-lg font-bold accent-blue">Health Supplements</h3>
-                        <span class="bg-blue-200 text-blue-800 text-xs font-bold px-3 py-1 rounded-full">Doctor Verified</span>
-                    </div>
-                    <p class="text-slate-700 mb-3"><span class="font-semibold">Purpose:</span> Support prostate and sexual health</p>
-                    <p class="text-slate-700 mb-3"><span class="font-semibold">Who:</span> Men seeking nutritional support</p>
-                    <p class="text-slate-700 mb-4"><span class="font-semibold">Safety:</span> Consult doctor before use, check ingredients</p>
-                    <button class="w-full gradient-blue text-white font-semibold py-2 rounded-lg hover:opacity-90 transition">Buy Safely</button>
-                </div>
-            </div>
-        </section>
-
-        <!-- Closing Message -->
-        <div class="bg-gradient-to-r from-blue-100 to-blue-50 rounded-xl p-8 text-center">
-            <p class="text-xl font-bold accent-blue mb-2">"Your body is not shameful."</p>
-            <p class="text-lg accent-blue">"Your health is your right. Knowledge is power."</p>
         </div>
-    </main>
+    </section>
 
+    <!-- Additional Resources Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center text-blue-900 mb-16">Complete Men's Health Education</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+                <!-- Sexual Function & Fertility -->
+                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow">
+                    <h3 class="text-2xl font-bold text-blue-900 mb-4 flex items-center gap-2">
+                        <span class="text-blue-500">♂</span> Sexual Function & Fertility
+                    </h3>
+                    <p class="text-gray-700 mb-4">Comprehensive guide to male sexual health, erectile function, sperm production, and fertility. Learn about factors affecting sexual performance and reproduction.</p>
+                    <ul class="space-y-2 text-gray-600 text-sm">
+                        <li>✓ Understanding erectile function</li>
+                        <li>✓ Sperm production and health</li>
+                        <li>✓ Premature ejaculation management</li>
+                        <li>✓ Fertility and conception</li>
+                        <li>✓ Sexual health at different ages</li>
+                    </ul>
+                </div>
+
+                <!-- Testosterone & Hormones -->
+                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow">
+                    <h3 class="text-2xl font-bold text-blue-900 mb-4 flex items-center gap-2">
+                        <span class="text-blue-500">⚡</span> Testosterone & Hormones
+                    </h3>
+                    <p class="text-gray-700 mb-4">Learn about testosterone's role in male health, the effects of low testosterone (hypogonadism), and hormone replacement therapy options. Understand hormonal changes with age.</p>
+                    <ul class="space-y-2 text-gray-600 text-sm">
+                        <li>✓ Testosterone production and function</li>
+                        <li>✓ Signs of low testosterone</li>
+                        <li>✓ Hormone replacement options</li>
+                        <li>✓ Hormonal changes with aging</li>
+                        <li>✓ Natural testosterone boosting</li>
+                    </ul>
+                </div>
+
+                <!-- Prostate Health -->
+                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow">
+                    <h3 class="text-2xl font-bold text-blue-900 mb-4 flex items-center gap-2">
+                        <span class="text-blue-500">🔍</span> Prostate Health
+                    </h3>
+                    <p class="text-gray-700 mb-4">Detailed information on prostate function, BPH (enlarged prostate), prostatitis, and prostate cancer screening. Learn prevention strategies and when to seek medical care.</p>
+                    <ul class="space-y-2 text-gray-600 text-sm">
+                        <li>✓ Prostate function and health</li>
+                        <li>✓ BPH symptoms and treatment</li>
+                        <li>✓ Prostatitis causes and relief</li>
+                        <li>✓ Prostate cancer screening (PSA)</li>
+                        <li>✓ Prevention and lifestyle factors</li>
+                    </ul>
+                </div>
+
+                <!-- Testicular Health -->
+                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow">
+                    <h3 class="text-2xl font-bold text-blue-900 mb-4 flex items-center gap-2">
+                        <span class="text-blue-500">👤</span> Testicular Health
+                    </h3>
+                    <p class="text-gray-700 mb-4">Learn about testicular self-exams, common conditions, and when to seek medical attention. Information on varicoceles, hydroceles, and testicular cancer prevention.</p>
+                    <ul class="space-y-2 text-gray-600 text-sm">
+                        <li>✓ Testicular self-examination</li>
+                        <li>✓ Testicular cancer screening</li>
+                        <li>✓ Varicoceles and hydroceles</li>
+                        <li>✓ Testicle pain causes</li>
+                        <li>✓ Age-related changes</li>
+                    </ul>
+                </div>
+
+                <!-- STI Prevention & Testing -->
+                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow">
+                    <h3 class="text-2xl font-bold text-blue-900 mb-4 flex items-center gap-2">
+                        <span class="text-blue-500">🛡️</span> STI Prevention & Testing
+                    </h3>
+                    <p class="text-gray-700 mb-4">Comprehensive information on sexually transmitted infections, prevention strategies, testing protocols, and treatment options. Learn about safe sex practices.</p>
+                    <ul class="space-y-2 text-gray-600 text-sm">
+                        <li>✓ Common STIs and symptoms</li>
+                        <li>✓ Condom use and effectiveness</li>
+                        <li>✓ Testing and diagnosis</li>
+                        <li>✓ Treatment options</li>
+                        <li>✓ Sexual health communication</li>
+                    </ul>
+                </div>
+
+                <!-- Men's Mental & Emotional Health -->
+                <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow">
+                    <h3 class="text-2xl font-bold text-blue-900 mb-4 flex items-center gap-2">
+                        <span class="text-blue-500">🧠</span> Mental & Emotional Health
+                    </h3>
+                    <p class="text-gray-700 mb-4">Address the connection between mental health and reproductive/sexual function. Information on depression, anxiety, and stress management for overall wellness.</p>
+                    <ul class="space-y-2 text-gray-600 text-sm">
+                        <li>✓ Mental health and sexual function</li>
+                        <li>✓ Depression and anxiety management</li>
+                        <li>✓ Stress reduction techniques</li>
+                        <li>✓ Seeking professional help</li>
+                        <li>✓ Building healthy relationships</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Key Facts Section -->
+            <div class="bg-blue-50 border-2 border-blue-300 rounded-xl p-8 mb-12">
+                <h3 class="text-2xl font-bold text-blue-900 mb-6">Important Men's Health Facts</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="flex gap-4">
+                        <span class="text-3xl">📋</span>
+                        <div>
+                            <h4 class="font-bold text-blue-900 mb-2">Regular Check-ups</h4>
+                            <p class="text-gray-700 text-sm">Annual health screenings including blood pressure, cholesterol, and age-appropriate cancer screenings are crucial for preventive care.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <span class="text-3xl">📋</span>
+                        <div>
+                            <h4 class="font-bold text-blue-900 mb-2">Fitness & Nutrition</h4>
+                            <p class="text-gray-700 text-sm">Regular exercise and balanced nutrition significantly improve sexual function, hormone levels, and overall reproductive health.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <span class="text-3xl">📋</span>
+                        <div>
+                            <h4 class="font-bold text-blue-900 mb-2">Stress Management</h4>
+                            <p class="text-gray-700 text-sm">Chronic stress negatively impacts testosterone levels, sexual function, and overall health. Practice relaxation techniques regularly.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <span class="text-3xl">📋</span>
+                        <div>
+                            <h4 class="font-bold text-blue-900 mb-2">Open Communication</h4>
+                            <p class="text-gray-700 text-sm">Don't hesitate to discuss reproductive and sexual health concerns with urologists or primary care physicians. Professional guidance is essential.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ecommerce Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Doctor Approval Banner -->
+            <div class="bg-gradient-to-r from-blue-100 to-slate-100 border-2 border-blue-300 rounded-xl p-6 mb-12 flex items-center gap-4">
+                <span class="text-4xl">👨‍⚕️</span>
+                <div>
+                    <h3 class="text-lg font-bold text-blue-900">Doctor Approved</h3>
+                    <p class="text-gray-700">All products and health information on this page have been reviewed and approved by certified medical professionals and urologists.</p>
+                </div>
+            </div>
+
+            <h2 class="text-4xl font-bold text-center text-blue-900 mb-16">Men's Health Products</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Product 1 -->
+                <div class="bg-blue-50 rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                    <div class="bg-gradient-to-br from-blue-300 to-slate-300 h-48 flex items-center justify-center">
+                        <span class="text-6xl">💪</span>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center gap-2 mb-2">
+                            <h3 class="text-xl font-bold text-blue-900">Men's Multivitamin</h3>
+                            <span class="bg-purple-100 text-purple-800 text-xs font-bold px-2 py-1 rounded-full">✓ Approved</span>
+                        </div>
+                        <p class="text-gray-700 text-sm mb-4">Specially formulated vitamins for men's health, supporting prostate, heart, and energy levels.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-2xl font-bold text-blue-600">$29.99</span>
+                            <button class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="bg-blue-50 rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                    <div class="bg-gradient-to-br from-blue-300 to-slate-300 h-48 flex items-center justify-center">
+                        <span class="text-6xl">🏋️</span>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center gap-2 mb-2">
+                            <h3 class="text-xl font-bold text-blue-900">Fitness & Wellness Bundle</h3>
+                            <span class="bg-purple-100 text-purple-800 text-xs font-bold px-2 py-1 rounded-full">✓ Approved</span>
+                        </div>
+                        <p class="text-gray-700 text-sm mb-4">Complete fitness package with workout guide, nutrition plan, and progress tracking tools.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-2xl font-bold text-blue-600">$49.99</span>
+                            <button class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="bg-blue-50 rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
+                    <div class="bg-gradient-to-br from-blue-300 to-slate-300 h-48 flex items-center justify-center">
+                        <span class="text-6xl">📚</span>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center gap-2 mb-2">
+                            <h3 class="text-xl font-bold text-blue-900">Men's Health Handbook</h3>
+                            <span class="bg-purple-100 text-purple-800 text-xs font-bold px-2 py-1 rounded-full">✓ Approved</span>
+                        </div>
+                        <p class="text-gray-700 text-sm mb-4">In-depth digital resource covering reproductive health, wellness, and lifestyle tips for men.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-2xl font-bold text-blue-600">$22.99</span>
+                            <button class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Footer -->
-    <footer class="bg-slate-900 text-white py-8 mt-16">
-        <div class="max-w-6xl mx-auto px-4 text-center">
-            <p class="mb-2"><a href="index.html" class="text-blue-300 hover:text-blue-200">← Back Home</a></p>
-            <p class="text-slate-400">Reproductive Health Awareness Platform | Supporting Men's Health</p>
+    <footer class="bg-gradient-to-r from-pink-300 to-blue-300 text-black py-12 bottom-0 left-0 right-0 w-full z-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <h4 class="font-bold text-lg mb-4 text-black">HealthHub</h4>
+                    <p class="text-black/80">Empowering men with health knowledge.</p>
+                </div>
+                <div>
+                    <h4 class="font-bold text-lg mb-4 text-black">Quick Links</h4>
+                    <ul class="space-y-2 text-black/80">
+                        <li><a href="index.html" class="hover:text-black transition">Home</a></li>
+                        <li><a href="womens-health.html" class="hover:text-black transition">Women's Health</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold text-lg mb-4 text-black">Support</h4>
+                    <ul class="space-y-2 text-black/80">
+                        <li><a href="#" class="hover:text-black transition">Contact Us</a></li>
+                        <li><a href="#" class="hover:text-black transition">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-black/10 pt-8 text-center text-black/80">
+                <p>&copy; 2026 HealthHub. All rights reserved.</p>
+            </div>
         </div>
     </footer>
 </body>
