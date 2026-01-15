@@ -22,13 +22,19 @@ SwasthyaSetu is an awareness-based educational web platform designed to provide 
 ![](women3.png)
 ![](women4.png)
 ![](women5.png)
-![](women6.png)
+
 
 ### 👨 Men’s Health Section
-![Men Page](assets/screenshots/men.png)
+![Men Page](men.png)
+![](men1.png)
+![](men2.png)
+![](men3.png)
+![](men4.png)
+![](men5.png)
 
 ### 🛒 Product & Awareness Store
-![Products](assets/screenshots/products.png)
+![Products_Women](women6.png)
+![Products_Men](men6.png)
 
 ---
 
